@@ -8,7 +8,7 @@ app.use(express.static('public'));
 
 // ✅ Добавляем обработчик для корневого маршрута
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'Bondar_Anton_CV_fin.html.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(PORT, () => {
